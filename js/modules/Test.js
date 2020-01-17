@@ -4,8 +4,9 @@ class Test {
   }
 
   events() {
-    const header = document.querySelector('.header');
-    header.classList.add('active');
+    const headLine = document.querySelector('.headLine');
+
+    headLine.classList.add('active');
   }
 }
 
